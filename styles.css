@@ -1,0 +1,201 @@
+
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+/*Using this when in phone mode 1. Links will be hidden*/
+	.meta-content {display: none;}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+body{
+   font-size: 10px;
+   letter-spacing: 0.5px;
+   word-spacing: 0px;
+   font-family: verdana;
+}
+
+/* --------------------------------------
+   1. Nav Links to Sell/Registry.......
+   -------------------------------------- */
+	#toplinks{border-bottom: none;}
+
+   .sec1fontcolr{
+      color: black;
+      opacity: 0.5;
+      font-size: 9px;
+   }
+
+   .sec1ul{
+      margin-bottom: 0px;
+   }
+
+/* --------------------------------------
+   2. Nav bar + Logo + Register/Signin..... + glyphicons
+   -------------------------------------- */
+
+   .sec2row
+   {
+      background-color: #ECF0F1;
+      height: 35px;
+   }
+
+   .sec2logo {
+      background-color: white;
+      padding: none;
+
+   }
+
+   .sec2list1{
+      background-color: #52B3D9;
+      color: white;
+   }
+   .sec2list2{
+      background-color: #D24D57;
+      color: white;
+   }
+   .sec2list3{
+      background-color: #52B3D9;
+      color: white;
+   }
+   .sec2list4{
+      background-color: #D24D57;
+      color: white;
+   }
+/* --------------------------------------
+   3. Nav Bar + Dropdown + thumbnails + buttons
+   -------------------------------------- */
+   .sec3navbar {
+      margin-bottom: 0;
+   }
+
+   .sec3row {
+      background-color: #52B3D9;
+   }
+
+
+/* --------------------------------------
+   4. Container divided in to 3 block's (Mens/Womens/Baby)
+   -------------------------------------- */
+.sec4row {
+   background-color: black;
+}
+
+/* --------------------------------------
+   5. Container divided in to 3 block's (Search bar/Crafts/Jewellry)
+   -------------------------------------- */
+
+.sec5row {
+   background-color: black;
+}
+
+
+/* --------------------------------------
+   6. New Products
+   -------------------------------------- */
+
+.sec6header {
+   font-size: 12px;
+   color: #52B3D9;
+   margin-bottom: 0px;
+}
+
+.sec6hrtag{
+   margin-top: 0px;
+}
+
+/* --------------------------------------
+   7. New Products
+   -------------------------------------- */
+
+.sec7h3tag {
+   font-size: 12px;
+   color: #52B3D9;
+   margin-bottom: 0px;
+}
+
+
+.sec7hrtag{
+   margin-top: 0px;
+}
+
+
+/* --------------------------------------
+   8. Who We Are
+   -------------------------------------- */
+
+.sec8h3tag {
+   font-size: 12px;
+   color: #52B3D9;
+   margin-bottom: 0px;
+}
+
+
+.sec8hrtag{
+   margin-top: 0px;
+}
+
+.sec8glyph1 {
+   height: 100px;
+   width: 200px;
+   background-color: #22313F;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+}
+
+.sec8glyph2 {
+   height: 100px;
+   width: 200px;
+   background-color: #52B3D9;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+}
+
+.sec8glyph3 {
+   height: 100px;
+   width: 200px;
+   background-color: #D24D57;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+}
+
+.sec8register {
+   height: 30px;
+   width: 400px;
+   background-color: #52B3D9;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-left: 200px;
+}
+
+
+.sec8registerAtag {
+   color: white;
+}
+
+
