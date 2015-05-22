@@ -1,8 +1,4 @@
 
-
-
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
@@ -29,13 +25,13 @@
 
 
 body{
-   font-size: 10px;
+   font-size: 1em;
    letter-spacing: 0.5px;
    word-spacing: 0px;
-   font-family: verdana;
+   font-family: 'Open Sans', sans-serif;
 }
 
-/* --------------------------------------
+/* -1-------------------------------------
    1. Nav Links to Sell/Registry.......
    -------------------------------------- */
 	#toplinks{border-bottom: none;}
@@ -50,20 +46,29 @@ body{
       margin-bottom: 0px;
    }
 
-/* --------------------------------------
+/* -2-------------------------------------
    2. Nav bar + Logo + Register/Signin..... + glyphicons
    -------------------------------------- */
 
    .sec2row
    {
       background-color: #ECF0F1;
-      height: 35px;
+      height: 50px;
    }
 
-   .sec2logo {
+   .sec2logo{
       background-color: white;
-      padding: none;
+      padding: 0px;
+      height: 50PX;
+      width: 100px;
 
+   }
+
+   .nav-pills>li>a.sec2list-item {
+      border-radius: 0px;
+      transition: all 0.3s ease-in;
+      height: 50px;
+      padding-top: 20px;
    }
 
    .sec2list1{
@@ -82,7 +87,7 @@ body{
       background-color: #D24D57;
       color: white;
    }
-/* --------------------------------------
+/* -3-------------------------------------
    3. Nav Bar + Dropdown + thumbnails + buttons
    -------------------------------------- */
    .sec3navbar {
@@ -93,26 +98,314 @@ body{
       background-color: #52B3D9;
    }
 
+   
+   .navbar-default .sec3row .navbar-nav>li>a {
+      color: white;
+      transition: color 0.3s ease-in;
+   }
 
-/* --------------------------------------
+   .navbar-default .sec3row .navbar-nav>li>a:hover {
+      color: #D24D57;
+   }
+
+   .rich-nav-item img {
+      float: left;
+   }
+
+   .rich-nav-item a,
+   .rich-nav-item button
+    {
+      margin-left: 10px;
+   }
+
+
+/* -4-------------------------------------
    4. Container divided in to 3 block's (Mens/Womens/Baby)
    -------------------------------------- */
-.sec4row {
-   background-color: black;
+
+.sec4container .row > div {
+   padding: 0;
+
 }
+.sec4container .row > div img {
+   width: 100%;
+   border: 1px solid white;
+   position: relative;
+}
+
+   /*------TEXT BLOCKS OVER IMAGES-------------*/
+.sec4menstextdiv {
+   height: 60px;
+   width: 60%;
+   margin-right: 0px;
+   position: absolute;
+   bottom: 20%;
+   background: rgba(0, 0, 0, 0.7);
+}
+.sec4menstexth2{
+   color: red;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-weight: bold;
+   font-family: "Times New Roman";
+}
+.sec4menstextp1 {
+   margin: 0px;
+   color: white;
+}
+.sec4menstextp2{
+   height: 20px;
+   width: 40%;
+   margin-right: 0px;
+   position: absolute;
+   bottom: 0%;
+   background-color: #D24D57;
+   color: white;
+   margin-bottom: 20px;
+   padding-top: 2px;
+}
+
+
+.sec4womenstextdiv {
+   height: 60px;
+   width: 70%;
+   margin-right: 0px;
+   position: absolute;
+   bottom: 50%;
+   background: rgba(0, 0, 0, 0.7);
+}
+.sec4womenstexth2{
+   color: red;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-weight: bold;
+   font-family: "Times New Roman";
+}
+.sec4womenstextp1 {
+   margin: 0px;
+   color: white;
+
+}
+   
+.sec4babytextcontainer {
+   top: 90%;
+   left: 40%;
+   position: absolute;
+   height: 32px;
+   width: auto;
+   background-color: #52B3D9;
+}
+
+.sec4babytextdiv {
+   height: 30px;
+   width: 70px;
+   background-color: #52B3D9;
+   padding-top: 7px;
+}
+.sec4babytext{
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-family: 'Open Sans', sans-serif;
+   background-color: #52B3D9;
+   margin-left: 0px;
+
+}
+
+.sec4babytextglyph1 {
+   height: 30px;
+   width: 30px;
+   background-color: #3498DB;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: 0px;
+}
+.sec4babytextglyph2 {
+   height: 30px;
+   width: 30px;
+   background-color: #D24D57;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: -5px;
+}
+.sec4babytextprice {
+   height: 50px;
+   width: 30px;
+   color: white;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 9px;
+   padding-left: 9px;
+   background: rgba(0, 0, 0, 0.7);
+   margin-left: -5px;
+}
+
+
+
 
 /* --------------------------------------
    5. Container divided in to 3 block's (Search bar/Crafts/Jewellry)
    -------------------------------------- */
+.sec5container .row > div {
+   padding: 0;
+   margin-bottom: 10px;
+}
 
-.sec5row {
-   background-color: black;
+.sec5container .row > div img {
+   width: 100%;
+   border: 1px solid white;
+}
+
+.sec5search{
+   height: 100px;
+   width: 100%;
+   background-color: #D24D57;
+   padding-top: 25px;
+   padding-left: 25%;
+}
+
+input.form-control.sec5searchbar {
+   font-size: 10px;
+   width: 75%;
+   display: inline-block;
+}
+
+.sec5icon {
+   /*color: white;*/
+   /*margin-top: 10px;*/
+    margin-left: -1.7em;
+    color: red;
+    font-size: 2em;
+    /*display: inline-block;*/
+}
+
+
+/*------TEXT BLOCKS OVER IMAGES-------------*/
+
+.sec5craftstextcontainer {
+   top: 60%;
+   left: 0%;
+   position: absolute;
+   height: 32px;
+   width: auto;
+   background-color: #D24D57;
+}
+
+.sec5craftstextdiv {
+   height: 30px;
+   width: 70px;
+   /*background-color: #52B3D9;*/
+   padding-top: 7px;
+}
+.sec5craftstext{
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-family: 'Open Sans', sans-serif;
+   /*background-color: #52B3D9;*/
+   margin-left: 0px;
+
+}
+
+.sec5craftstextglyph1 {
+   height: 30px;
+   width: 30px;
+   background-color: #3498DB;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: 0px;
+}
+.sec5craftstextglyph2 {
+   height: 30px;
+   width: 30px;
+   background-color: #D24D57;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: -5px;
+}
+.sec5craftstextprice {
+   height: 50px;
+   width: 30px;
+   color: white;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 9px;
+   padding-left: 9px;
+   background: rgba(0, 0, 0, 0.7);
+   margin-left: -5px;
+}
+
+/*jewellry*/
+.sec5jewellrytextcontainer {
+   top: 67%;
+   left: -18%;
+   position: absolute;
+   height: 32px;
+   width: auto;
+   background-color: #87D37C;
+   transform: rotate(-90deg);
+}
+
+.sec5jewellrytextdiv {
+   height: 30px;
+   width: 70px;
+   /*background-color: #52B3D9;*/
+   padding-top: 7px;
+}
+.sec5jewellrytext{
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-family: 'Open Sans', sans-serif;
+   /*background-color: #52B3D9;*/
+   margin-left: 0px;
+
+}
+
+.sec5jewellrytextglyph1 {
+   height: 30px;
+   width: 30px;
+   background-color: #3498DB;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: 0px;
+}
+.sec5jewellrytextglyph2 {
+   height: 30px;
+   width: 30px;
+   background-color: #D24D57;
+   color: white;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-left: -5px;
+}
+.sec5jewellrytextprice {
+   height: 50px;
+   width: 30px;
+   color: white;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 9px;
+   padding-left: 9px;
+   background: rgba(0, 0, 0, 0.7);
+   margin-left: -5px;
 }
 
 
 /* --------------------------------------
    6. New Products
    -------------------------------------- */
+.sec6container .row > div img {
+   width: 100%;
+   border: 1px solid white;
+   margin-bottom: 10px;
+
+}
 
 .sec6header {
    font-size: 12px;
@@ -127,6 +420,12 @@ body{
 /* --------------------------------------
    7. New Products
    -------------------------------------- */
+
+.sec7container .row > div img {
+   width: 100%;
+   border: 1px solid white;
+   margin-bottom: 10px;
+}
 
 .sec7h3tag {
    font-size: 12px;
@@ -161,7 +460,8 @@ body{
    background-color: #22313F;
    text-align: center;
    color: white;
-   font-size: 15px;
+   font-size: 1.5em;
+   padding-top: 40px;
 }
 
 .sec8glyph2 {
@@ -170,7 +470,8 @@ body{
    background-color: #52B3D9;
    text-align: center;
    color: white;
-   font-size: 15px;
+   font-size: 1.5em;
+   padding-top: 40px;
 }
 
 .sec8glyph3 {
@@ -179,23 +480,87 @@ body{
    background-color: #D24D57;
    text-align: center;
    color: white;
-   font-size: 15px;
+   font-size: 1.5em;
+   padding-top: 40px;
 }
 
 .sec8register {
-   height: 30px;
-   width: 400px;
+  text-align: center;
+   margin-top: 30px;
+
+}
+
+
+a.sec8registerAtag {
+   color: white;
+   padding: 10px 15%;
    background-color: #52B3D9;
+   color: white;
+   font-size: 1.5em;
+   width: 50%;
+}
+
+.sec8glyphbox {
    text-align: center;
+}
+
+/* -9-------------------------------------
+   9. Footer
+   -------------------------------------- */
+.sec9signupemail {
+   height: 30px;
+   width: 70%;
+   border: 1px solid black;
+   padding-left: 5%;
+   padding-top: 10px;
+   margin-bottom: 0px;
+}
+.sec9signupsubscribe {
+   height: 30px;
+   width: 70%;
+   /*border: 1px solid black;*/
+   padding-left: 10%;
+   padding-top: 10px;
+   background-color: #52B3D9;
    color: white;
-   font-size: 15px;
+}
+.sec9rssicon {
+   color: orange;
+}
+.sec9fbicon {
+   color: #446CB3;
+}
+.sec9twittericon {
+   color: #6BB9F0
+}
+.sec9flickricon {
+   color: #EF4836;
+}
+.sec9googleicon {
+   color: #1F3A93;
+}
+.sec9copyrighthr1 {
    margin-top: 10px;
-   margin-left: 200px;
+}
+.sec9copyrighthr2 {
+   margin-bottom: 10px;
 }
 
 
-.sec8registerAtag {
-   color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
