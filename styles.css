@@ -9,11 +9,18 @@
 /*Using this when in phone mode 1. Links will be hidden*/
 	.meta-content {display: none;}
 
+/*  .sec5jewellryimg {
+    height: 50px;
+  }*/
+
+
+
 }
+
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+
 }
 
 /* Large desktop */
@@ -46,85 +53,6 @@ body{
         margin-bottom: 0px;
      }
 
-/* -2-------------------------------------
-   2. Nav bar + Logo + Register/Signin..... + glyphicons
-   -------------------------------------- */
-
-   .sec2row {
-      /*background-color: #ECF0F1;*/
-      height: 50px;
-     }
-
-   .sec2col {
-    padding: 0;
-
-   }
-
-   .sec2logo{
-      background-color: white;
-      padding: 0px;
-      height: 50PX;
-      width: 100px;
-
-   }
-
-   .nav-pills>li>a.sec2list-item {
-      border-radius: 0px;
-      transition: all 0.3s ease-in;
-      height: 50px;
-      padding-top: 20px;
-   }
-
-   .sec2list1{
-      background-color: #52B3D9;
-      color: white;
-   }
-   .sec2list2{
-      background-color: #D24D57;
-      color: white;
-   }
-   .sec2list3{
-      background-color: #52B3D9;
-      color: white;
-   }
-   .sec2list4{
-      background-color: #D24D57;
-      color: white;
-   }
-
-    .sec2search{
-       /*height: 100px;*/
-       width: 40%;
-       /*background-color: #D24D57;*/
-       padding-top: 5px;
-       padding-bottom: 5px;
-       padding-left: 0px;
-       /*position: absolute;*/
-       display: inline-block;
-       text-align: center;
-       /*background: rgba(0, 0, 0, 0.7);*/
-    }
-
-    input.form-control.sec2searchbar {
-       font-size: 2vmin;
-       width: 80%;
-       display: inline-block;
-       padding-left: 10px;
-       text-align: center;
-    }
-
-    .sec2icon {
-       /*color: white;*/
-       /*margin-top: 10px;*/
-        margin-left: -1.7em;
-        color: #D24D57;
-        font-size: 3vmin;
-        /*display: inline-block;*/
-    }
-
-    .sec2ul {
-      display: inline-block;
-    }
 
 /* -3-------------------------------------
    3. Nav Bar + Dropdown + thumbnails + buttons
@@ -180,7 +108,7 @@ body{
        width: 60%;
        margin-right: 0px;
        position: absolute;
-       bottom: 20%;
+       bottom: 5%;
        background: rgba(0, 0, 0, 0.7);
     }
     .sec4menstexth2{
@@ -196,10 +124,10 @@ body{
     }
     .sec4menstextp2{
        height: 20px;
-       width: 40%;
+       width: 60%;
        margin-right: 0px;
        position: absolute;
-       bottom: 0%;
+       bottom: -4%;
        background-color: #D24D57;
        color: white;
        margin-bottom: 20px;
@@ -209,7 +137,7 @@ body{
 
     .sec4womenstextdiv {
        height: 60px;
-       width: 70%;
+       width: 60%;
        margin-right: 0px;
        position: absolute;
        bottom: 50%;
@@ -229,8 +157,8 @@ body{
     }
        
     .sec4babytextcontainer {
-       top: 90%;
-       left: 40%;
+       bottom: 0%;
+       left: 0%;
        position: absolute;
        height: 32px;
        width: auto;
@@ -305,7 +233,7 @@ body{
     /*------TEXT BLOCKS OVER IMAGES-------------*/
 
       .sec5craftstextcontainer {
-         top: 60%;
+         bottom: 0%;
          left: 0%;
          position: absolute;
          height: 32px;
@@ -361,13 +289,14 @@ body{
 
       /*jewellry*/
       .sec5jewellrytextcontainer {
-         top: 67%;
-         left: -18%;
+         bottom: 0%;
+         left: 0%;
          position: absolute;
          height: 32px;
          width: auto;
-         background-color: #87D37C;
-         transform: rotate(-90deg);
+         background: rgba(0, 0, 0, 0.7);
+         /*background-color: #87D37C;*/
+         /*transform: rotate(-90deg);*/
       }
 
       .sec5jewellrytextdiv {
@@ -424,6 +353,7 @@ body{
        width: 100%;
        border: 1px solid white;
        margin-bottom: 10px;
+       position: relative;
 
     }
 
@@ -437,14 +367,33 @@ body{
        margin-top: 0px;
     }
 
+    .sec6label1 {
+      font-size: 2vmin;
+      position: absolute;
+      top: 0%;
+      right:4%; 
+    }
+     .sec6label2 {
+      font-size: 2vmin;
+      position: absolute;
+      top: 0%;
+      right:4%; 
+    }
+     .sec6label3 {
+      font-size: 2vmin;
+      position: absolute;
+      top: 0%;
+      right:4%; 
+    }
 /* --------------------------------------
    7. New Products
    -------------------------------------- */
 
     .sec7container .row > div img {
        width: 100%;
-       border: 1px solid white;
-       margin-bottom: 10px;
+       /*border: 1px solid white;*/
+       /*margin-bottom: 10px;*/
+       position: relative;
     }
 
     .sec7h3tag {
@@ -456,6 +405,44 @@ body{
 
     .sec7hrtag{
        margin-top: 0px;
+    }
+
+
+    .sec7imagecol{
+      border: 1px solid whitesmoke;
+      /*margin: 1px;*/
+      padding: 30px;
+      /*width:24%; */
+
+    }
+
+    .sec7imagetitle {
+      /*border: 1px solid grey;*/
+    }
+    .sec7imagetitle > h5{
+      margin: 0;
+      height: 25px;
+      padding-top: 2%;
+      font-size: 12px;
+    }
+    .sec7iconrow {
+      /*border: 1px solid grey;*/
+      height: 30px;
+      /*background: rgba(0, 0, 0, 0.7);*/
+      background-color: gainsboro;
+      /*width: inherit;*/
+      margin-right: -3px;
+    }
+    .sec7glyphs {
+      /*border: 1px solid grey;*/
+      padding-top: 2%;
+      padding-left: 8%;
+      padding-right: 8%;
+      font-size: 12px;
+      color: black;
+    }
+    .sec7container {
+      margin-bottom: 10px;
     }
 
 
