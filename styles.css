@@ -105,8 +105,8 @@ body{
    /*------TEXT BLOCKS OVER IMAGES-------------*/
     .sec4menstextdiv {
        height: 60px;
-       width: 60%;
-       margin-right: 0px;
+       width: 50%;
+       margin-left: 1px;
        position: absolute;
        bottom: 5%;
        background: rgba(0, 0, 0, 0.7);
@@ -114,23 +114,28 @@ body{
     .sec4menstexth2{
        color: red;
        margin-top: 5px;
+       padding-left: 3px;
+       font-size: 2.5em;
        margin-bottom: 0px;
        font-weight: bold;
        font-family: "Times New Roman";
     }
     .sec4menstextp1 {
        margin: 0px;
+       padding-left: 3px;
        color: white;
     }
     .sec4menstextp2{
        height: 20px;
-       width: 60%;
-       margin-right: 0px;
+       width: 50%;
+       margin-left: 1px;
+       padding-left: 3px;
        position: absolute;
-       bottom: -4%;
+       bottom: 1%;
+       margin-bottom: 0;
        background-color: #D24D57;
        color: white;
-       margin-bottom: 20px;
+       /*margin-bottom: 20px;*/
        padding-top: 2px;
     }
 
@@ -138,13 +143,15 @@ body{
     .sec4womenstextdiv {
        height: 60px;
        width: 60%;
-       margin-right: 0px;
+       margin-left: 1px;
        position: absolute;
        bottom: 50%;
        background: rgba(0, 0, 0, 0.7);
     }
     .sec4womenstexth2{
        color: red;
+       font-size: 2.5em;
+       padding-left: 3px;
        margin-top: 5px;
        margin-bottom: 0px;
        font-weight: bold;
@@ -152,6 +159,7 @@ body{
     }
     .sec4womenstextp1 {
        margin: 0px;
+       padding-left: 3px;
        color: white;
 
     }
@@ -164,6 +172,10 @@ body{
        width: auto;
        background-color: #52B3D9;
     }
+    .sec4babytextcontainer > a:hover {
+      color: wheat;
+    }
+
 
     .sec4babytextdiv {
        height: 30px;
@@ -241,6 +253,10 @@ body{
          background-color: #D24D57;
       }
 
+      .sec5craftstextcontainer > a:hover {
+        color: wheat
+      }
+
       .sec5craftstextdiv {
          height: 30px;
          width: 70px;
@@ -297,6 +313,10 @@ body{
          background: rgba(0, 0, 0, 0.7);
          /*background-color: #87D37C;*/
          /*transform: rotate(-90deg);*/
+      }
+
+      .sec5jewellrytextcontainer > a:hover {
+        color: wheat;
       }
 
       .sec5jewellrytextdiv {
@@ -471,6 +491,10 @@ body{
        padding-top: 40px;
     }
 
+    .sec8glyphbox > a:hover {
+      color: wheat;
+    }
+
     .sec8glyph2 {
        height: 100px;
        width: 200px;
@@ -516,18 +540,20 @@ body{
    -------------------------------------- */
     .sec9signupemail {
        height: 30px;
-       width: 70%;
+       width: 50%;
        border: 1px solid black;
-       padding-left: 5%;
+       padding-left: 10px;
+       padding-bottom: 10px;
        padding-top: 10px;
        margin-bottom: 0px;
     }
     .sec9signupsubscribe {
        height: 30px;
-       width: 70%;
+       width: 50%;
        /*border: 1px solid black;*/
-       padding-left: 10%;
+       padding-left: 10px;
        padding-top: 10px;
+       padding-bottom: 10px;
        background-color: #52B3D9;
        color: white;
     }

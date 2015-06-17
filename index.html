@@ -1,217 +1,217 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Week 1 Designing a Website using Bootstrap</title>
+  <title>Week 1 Designing a Website using Bootstrap</title>
 
-	 <!-- Bootstrap 3 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework. To ensure proper rendering and touch zooming, add the following <meta> tag inside the <head> element: -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<!-- Fontawesome CSS -->
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<!-- Latest compiled and minified JQuery -->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <!-- Bootstrap 3 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework. To ensure proper rendering and touch zooming, add the following <meta> tag inside the <head> element: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Latest compiled and minified JQuery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-	<!-- Link to additional fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <!-- Link to additional fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 
 
-	<!-- ****** Bootstrap+JS+JQuery Code in folder ******** -->
-	<!-- Folder Bootstrap CSS-->
-	<!-- <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet"> -->
-	<!-- Folder Jquery Bootstrap -->
+  <!-- ****** Bootstrap+JS+JQuery Code in folder ******** -->
+  <!-- Folder Bootstrap CSS-->
+  <!-- <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- Folder Jquery Bootstrap -->
   <!-- <script type="text/javascript" src="bootstrap-3.3.4-dist/jquery/jquery-2.1.4.min.js"></script> -->
-	<!-- Folder JS Bootsrap -->
-	 <!-- <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script> -->
+  <!-- Folder JS Bootsrap -->
+   <!-- <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script> -->
 
 
 
 </head>
 <body>
-	<div class="container" id="main">
+  <div class="container" id="main">
 
-	<!-- 1. Nav Links to Sell/Registry....... -->
-		<div class="container">
-			<div class="row">
-				<ul class="list-inline pull-right sec1ul">
-					<li><a class="sec1fontcolr" href="#">Sell</a></li>
-					<li><a class="sec1fontcolr" href="#">Registry</a></li>
-					<li><a class="sec1fontcolr" href="#">Community</a></li>
-					<li><a class="sec1fontcolr" href="#">Blogs</a></li>
-					<li><a class="sec1fontcolr" href="#">Mobile</a></li>
-					<li><a class="sec1fontcolr" href="#">Gift Cards</a></li>
-				</ul>
-			</div> <!-- end row -->
-		</div> <!-- end container -->
+  <!-- 1. Nav Links to Sell/Registry....... -->
+    <div class="container">
+      <div class="row">
+        <ul class="list-inline pull-right sec1ul">
+          <li><a class="sec1fontcolr" href="#">Sell</a></li>
+          <li><a class="sec1fontcolr" href="#">Registry</a></li>
+          <li><a class="sec1fontcolr" href="#">Community</a></li>
+          <li><a class="sec1fontcolr" href="#">Blogs</a></li>
+          <li><a class="sec1fontcolr" href="#">Mobile</a></li>
+          <li><a class="sec1fontcolr" href="#">Gift Cards</a></li>
+        </ul>
+      </div> <!-- end row -->
+    </div> <!-- end container -->
 
 
-	<!-- 3. Nav Bar + Dropdown + thumbnails + buttons -->
-		<nav class="navbar navbar-default sec3navbar">
-			<div class="container sec3navcontainer">
-				<div class="row sec3row">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Art</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul> <!-- end dropdown menu -->
-							</li>
-							<li class="dropdown"><a href="#" class="class= dropdown-toggle" data-toggle="dropdown">Home & Living</a>
-								<ul class="dropdown-menu">
-									<li>
-										<div class="rich-nav-item">
-											<img src="images/dropdown_thumbnail.png">
-											<a>Item1</a>
-											<button class="btn btn-sm">More Details</button>
-										</div>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<div class="rich-nav-item">
-										<img src="images/dropdown_thumbnail.png">
-										<a>Item2</a>
-										<button class="btn btn-sm">More Details</button>
-										</div>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<div class="rich-nav-item">
-										<img src="images/dropdown_thumbnail.png">
-										<a>Item3</a>
-										<button class="btn btn-sm">More Details</button>
-										</div>
-									</li>
-									<li class="divider"></li>
-									<li><a>See All Items</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Jewellry</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Women</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Men</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Kids</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Vintage</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Weddings</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">More</a>
-								<ul class="dropdown-menu">
-									<li><a>Item 1</a></li>
-									<li><a>Item 2</a></li>
-									<li><a>Item 3</a></li>
-								</ul>
-							</li>
-						</ul> <!-- end nav ul -->
-						</div> <!-- new coll -->
-					</div> <!-- end nav bar header -->
+  <!-- 3. Nav Bar + Dropdown + thumbnails + buttons -->
+    <nav class="navbar navbar-default sec3navbar">
+      <div class="container sec3navcontainer">
+        <div class="row sec3row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Art</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul> <!-- end dropdown menu -->
+              </li>
+              <li class="dropdown"><a href="#" class="class= dropdown-toggle" data-toggle="dropdown">Home & Living</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="rich-nav-item">
+                      <img src="images/dropdown_thumbnail.png">
+                      <a>Item1</a>
+                      <button class="btn btn-sm">More Details</button>
+                    </div>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <div class="rich-nav-item">
+                    <img src="images/dropdown_thumbnail.png">
+                    <a>Item2</a>
+                    <button class="btn btn-sm">More Details</button>
+                    </div>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <div class="rich-nav-item">
+                    <img src="images/dropdown_thumbnail.png">
+                    <a>Item3</a>
+                    <button class="btn btn-sm">More Details</button>
+                    </div>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a>See All Items</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Jewellry</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Women</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Men</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Kids</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Vintage</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Weddings</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">More</a>
+                <ul class="dropdown-menu">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </li>
+            </ul> <!-- end nav ul -->
+            </div> <!-- new coll -->
+          </div> <!-- end nav bar header -->
           
-				</div> <!-- end row -->
-			</div> <!-- end container -->
-		</nav> <!-- end nav bar-->
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    </nav> <!-- end nav bar-->
 
 
 
-	<!-- 4. Container divided in to 3 block's (Mens/Womens/Baby)  -->
-		<div class="container sec4container">
-			<div class="row">
-				<div class="col-xs-12 col-md-8">
-					<img class="img-responsive" src="images/menswear.jpg">
-						<div class="sec4menstextdiv">
-							<h2 class="sec4menstexth2">MEN'S WEAR</h2>
-							<p class="sec4menstextp1">Summer Fashion Week</p>
-						</div>
-						<p class="sec4menstextp2">Season special</p>
-				</div> <!-- end col 7 -->
+  <!-- 4. Container divided in to 3 block's (Mens/Womens/Baby)  -->
+    <div class="container sec4container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <img class="img-responsive" src="images/menswear.jpg">
+            <div class="sec4menstextdiv">
+              <h2 class="sec4menstexth2">MEN'S WEAR</h2>
+              <p class="sec4menstextp1">Summer Fashion Week</p>
+            </div>
+            <p class="sec4menstextp2">Season special</p>
+        </div> <!-- end col 7 -->
 
-				<div class="col-xs-12 col-md-4">
-					<img class="img-responsive" src="images/womenswear.jpg">
-						<div class="sec4womenstextdiv">
-							<h3 class="sec4womenstexth2">WOMEN'S WEAR</h3>
-							<p class="sec4womenstextp1">Summer Fashion Week</p>
-						</div>
-					<img class="img-responsive" src="images/babyshop.jpg">
-						<div class="container sec4babytextcontainer">
-							<a class="sec4babytextdiv sec4babytext">Baby Shop</a>
-							<a class="glyphicon glyphicon-gift sec4babytextglyph1"></a>
-							<a class="glyphicon glyphicon-shopping-cart sec4babytextglyph2"></a>
-							<a class="sec4babytextprice">$99</a>
-						</div> <!-- end text container -->
-				</div> <!-- end col 5-->
-			</div> <!-- end row -->
-		</div> <!-- end container -->
+        <div class="col-xs-12 col-md-4">
+          <img class="img-responsive" src="images/womenswear.jpg">
+            <div class="sec4womenstextdiv">
+              <h3 class="sec4womenstexth2">WOMEN'S WEAR</h3>
+              <p class="sec4womenstextp1">Summer Fashion Week</p>
+            </div>
+          <img class="img-responsive" src="images/babyshop.jpg">
+            <div class="container sec4babytextcontainer">
+              <a class="sec4babytextdiv sec4babytext">Baby Shop</a>
+              <a class="glyphicon glyphicon-gift sec4babytextglyph1"></a>
+              <a class="glyphicon glyphicon-shopping-cart sec4babytextglyph2"></a>
+              <a class="sec4babytextprice">$99</a>
+            </div> <!-- end text container -->
+        </div> <!-- end col 5-->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
 
 
-	<!-- 5. Container divided in to 3 block's (Search bar/Crafts/Jewellry) -->
-		<div class="container sec5container">
-			<div class="row">
-				<div class="col-xs-12 col-md-8">
-					
-				<img class="img-responsive" src="images/crafts.jpg">
-					<div class="container sec5craftstextcontainer">
-						<a class="sec5craftstextdiv sec5craftstext">CRAFTS</a>
-						<a class="glyphicon glyphicon-gift sec5craftstextglyph1"></a>
-						<a class="glyphicon glyphicon-shopping-cart sec5craftstextglyph2"></a>
-						<a class="sec5craftstextprice">$49</a>
-					</div> <!-- end text container -->
-			</div> <!-- end col -->
+  <!-- 5. Container divided in to 3 block's (Search bar/Crafts/Jewellry) -->
+    <div class="container sec5container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          
+        <img class="img-responsive" src="images/crafts.jpg">
+          <div class="container sec5craftstextcontainer">
+            <a class="sec5craftstextdiv sec5craftstext">CRAFTS</a>
+            <a class="glyphicon glyphicon-gift sec5craftstextglyph1"></a>
+            <a class="glyphicon glyphicon-shopping-cart sec5craftstextglyph2"></a>
+            <a class="sec5craftstextprice">$49</a>
+          </div> <!-- end text container -->
+      </div> <!-- end col -->
 
-				<div class="col-xs-12 col-md-4">
-					<img class="img-responsive sec5jewellryimg" src="images/jewellry.jpg">
-						<div class="container sec5jewellrytextcontainer">
-						<a class="sec5jewellrytextdiv sec5jewellrytext">JEWELLRY</a>
-						<a class="glyphicon glyphicon-gift sec5jewellrytextglyph1"></a>
-						<a class="glyphicon glyphicon-shopping-cart sec5jewellrytextglyph2"></a>
-						<a class="sec5jewellrytextprice">$999</a>
-					</div> <!-- end text container -->
-				</div> <!-- end col 4-->
-			</div> <!-- end row -->
-		</div> <!-- end container -->
+        <div class="col-xs-12 col-md-4">
+          <img class="img-responsive sec5jewellryimg" src="images/jewellry.jpg">
+            <div class="container sec5jewellrytextcontainer">
+            <a class="sec5jewellrytextdiv sec5jewellrytext">JEWELLRY</a>
+            <a class="glyphicon glyphicon-gift sec5jewellrytextglyph1"></a>
+            <a class="glyphicon glyphicon-shopping-cart sec5jewellrytextglyph2"></a>
+            <a class="sec5jewellrytextprice">$999</a>
+          </div> <!-- end text container -->
+        </div> <!-- end col 4-->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
 
 
   <!-- 7. Feature Products -->
@@ -280,147 +280,150 @@
       </div> <!-- end row -->
     </div> <!-- end container -->
 
-	<!-- 6. New Products -->
-		<div class="container sec6container">
-			<div class="row sec6row">
-				<button type="button" class="pull-right btn btn-danger glyphicon glyphicon-menu-right"></button>
-				<button type="button" class="pull-right btn btn-info glyphicon glyphicon-menu-left"></button>
-				<h3 class="sec6header">New Products</h3>
-			</div> <!-- end row -->
+  <!-- 6. New Products -->
+    <div class="container sec6container">
+      <div class="row sec6row">
+        <button type="button" class="pull-right btn btn-danger glyphicon glyphicon-menu-right"></button>
+        <button type="button" class="pull-right btn btn-info glyphicon glyphicon-menu-left"></button>
+        <h3 class="sec6header">New Products</h3>
+      </div> <!-- end row -->
 
-			<hr class="sec6hrtag">
+      <hr class="sec6hrtag">
 
-			<div class="row">
-				<div class="col-xs-12 col-md-4">
-					<img src="images/newprod1.jpeg">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <img src="images/newprod1.jpeg">
           <div class="label label-danger price sec6label1">
             <span class="glyphicon glyphicon-tag"><sup>$</sup>99</span>
           </div>
-				</div> <!-- end of col 4  -->
-				<div class="col-xs-12 col-md-4">
-					<img src="images/newprod2.png">
+        </div> <!-- end of col 4  -->
+        <div class="col-xs-12 col-md-4">
+          <img src="images/newprod2.png">
             <div class="label label-success price sec6label2">
               <span class="glyphicon glyphicon-tag"><sup>$</sup>59</span>
           </div>
-				</div> <!-- end of col 4  -->
-				<div class="col-xs-12 col-md-4">
-					<img src="images/newprod3.jpg">
+        </div> <!-- end of col 4  -->
+        <div class="col-xs-12 col-md-4">
+          <img src="images/newprod3.jpg">
             <div class="label label-warning price sec6label3">
               <span class="glyphicon glyphicon-tag"><sup>$</sup>89</span>
           </div>
-				</div> <!-- end of col 4  -->
+        </div> <!-- end of col 4  -->
 
-			</div> <!-- end row -->
-		</div> <!-- end container -->
-
-
+      </div> <!-- end row -->
+    </div> <!-- end container -->
 
 
 
-	<!-- 8. Who we Are -->
-		<div class="container">
-			<div class="row">
-				<h3 class="sec8h3tag">Who We Are</h3>
-				<hr class="sec8hrtag">
-					<div>
-						<p>Random gibberish text to use in web pages, site templates and in typography demos. Get rid of Lorem Ipsum forever. A tool for web designers who want to save time.</p>
-					</div>
 
-				<div class="col-xs-12 col-md-4 sec8glyphbox">
-					<a href="#" class="glyphicon glyphicon-gift sec8glyph1">Choose Product</a>
-				</div> <!-- end of col 4  -->
-					<div class="col-xs-12 col-md-4 sec8glyphbox">
-					<a href="#" class="glyphicon glyphicon-log-in sec8glyph2">Register/Login</a>
-				</div> <!-- end of col 4  -->
-				<div class="col-xs-12 col-md-4 sec8glyphbox">
-					<a href="#" class="glyphicon glyphicon-shopping-cart sec8glyph3">Check Out</a>
-				</div> <!-- end of col 4  -->
-			</div> <!-- end row -->
 
-			<div class="row sec8register">
-					<a class="sec8registerAtag" href="#">Register Now</a>
-			</div> <!-- end row -->
-		</div> <!-- end container -->
-	
-	<hr>
+  <!-- 8. Who we Are -->
+    <div class="container">
+      <div class="row">
+        <h3 class="sec8h3tag">Who We Are</h3>
+        <hr class="sec8hrtag">
+          <div>
+            <p>Random gibberish text to use in web pages, site templates and in typography demos. Get rid of Lorem Ipsum forever. A tool for web designers who want to save time.</p>
+          </div>
 
-	</div> <!-- end main container -->
+        <div class="col-xs-12 col-md-4 sec8glyphbox">
+          <a href="#" class="glyphicon glyphicon-gift sec8glyph1">Choose Product</a>
+        </div> <!-- end of col 4  -->
+          <div class="col-xs-12 col-md-4 sec8glyphbox">
+          <a href="#" class="glyphicon glyphicon-log-in sec8glyph2">Register/Login</a>
+        </div> <!-- end of col 4  -->
+        <div class="col-xs-12 col-md-4 sec8glyphbox">
+          <a href="#" class="glyphicon glyphicon-shopping-cart sec8glyph3">Check Out</a>
+        </div> <!-- end of col 4  -->
+      </div> <!-- end row -->
+
+      <div class="row sec8register">
+          <a class="sec8registerAtag" href="#">Register Now</a>
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+  
+  <hr>
+
+  </div> <!-- end main container -->
 
 <!-- 9. Footer -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-3">
-					<div>
-						<h5>SHOPPING WITH US</h5>
-						<ul class="list-unstyled">
-							<li>Why Shop with us?</li>
-							<li>How it works</li>
-							<li>Delivery</li>
-							<li>returns</li>
-							<li>Wheres my order</li>
-							<li>contact & help</li>
-							<li>Wedding list</li>
-							<li>Whish lists</li>
-							<li>Gift voucher</li>
-						</ul>
-					</div> <!-- end of div header -->
-				</div> <!-- end of col 3  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div>
+            <h5>SHOPPING WITH US</h5>
+            <ul class="list-unstyled">
+              <li>Why Shop with us?</li>
+              <li>How it works</li>
+              <li>Delivery</li>
+              <li>returns</li>
+              <li>Wheres my order</li>
+              <li>contact & help</li>
+              <li>Wedding list</li>
+              <li>Whish lists</li>
+              <li>Gift voucher</li>
+            </ul>
+          </div> <!-- end of div header -->
+        </div> <!-- end of col 3  -->
 
-				<div class="col-xs-12 col-md-3">
-					<div>
-						<h5>ABOUT US</h5>
-						<ul class="list-unstyled">
-							<li>Our Story</li>
-							<li>Customer Contact</li>
-							<li>awards</li>
-							<li>press centre</li>
-							<li>work with us</li>
-							<li>terms & conditions</li>
-							<li>privacy & cookies</li>
-						</ul>
-					</div> <!-- end of div header -->
-				</div> <!-- end of col 3  -->
+        <div class="col-xs-12 col-md-3">
+          <div>
+            <h5>ABOUT US</h5>
+            <ul class="list-unstyled">
+              <li>Our Story</li>
+              <li>Customer Contact</li>
+              <li>awards</li>
+              <li>press centre</li>
+              <li>work with us</li>
+              <li>terms & conditions</li>
+              <li>privacy & cookies</li>
+            </ul>
+          </div> <!-- end of div header -->
+        </div> <!-- end of col 3  -->
 
-				<div class="col-xs-12 col-md-3">
-					<div>
-						<h5>SELLING WITH US</h5>
-						<ul class="list-unstyled">
-							<li>Why join?</li>
-							<li>faqs</li>
-							<li>apply to sell with us</li>
-							<li>affliates</li>
-						</ul>
-					</div> <!-- end of div header -->
-				</div> <!-- end of col 3  -->
-				
-				<div class="col-xs-12 col-md-3">
-					<div>
-						<h5>SIGNUP NEWSLETTER</h5>
-						<a href="#"><p class="sec9signupemail">EG:ABC@DOMAIN.COM</p></a>
-						<a href="#"><p class="sec9signupsubscribe">SUBSCRIBE NOW</p></a>
-					</div> <!-- end of div header -->
-					<div>
-						<h5>KEEP IN TOUCH</h5>
-							<div>
-								<i class="icon-rss-sign icon-3x sec9rssicon"></i>
-								<i class="icon-facebook-sign icon-3x sec9fbicon"></i>
-								<i class="icon-twitter-sign icon-3x sec9twittericon"></i>
-								<i class="icon-flickr icon-3x sec9flickricon"></i>
-								<i class="icon-google-plus-sign icon-3x sec9googleicon"></i>
-							</div> <!-- end of h5 div -->
-					</div> <!-- end of div -->
-				</div> <!-- end of col 3  -->
-			</div> <!-- end row-->
+        <div class="col-xs-12 col-md-3">
+          <div>
+            <h5>SELLING WITH US</h5>
+            <ul class="list-unstyled">
+              <li>Why join?</li>
+              <li>faqs</li>
+              <li>apply to sell with us</li>
+              <li>affliates</li>
+            </ul>
+          </div> <!-- end of div header -->
+        </div> <!-- end of col 3  -->
+        
+        <div class="col-xs-12 col-md-3">
+          <div>
+            <h5>SIGNUP NEWSLETTER</h5>
+            <a href="#">
+              <!-- <p class="sec9signupemail">EG:ABC@DOMAIN.COM</p> -->
+              <input class="sec9signupemail" placeholder="Please enter your email address">
+            </a>
+            <a href="#"><p class="sec9signupsubscribe">SUBSCRIBE NOW</p></a>
+          </div> <!-- end of div header -->
+          <div>
+            <h5>KEEP IN TOUCH</h5>
+              <div>
+                <i class="icon-rss-sign icon-3x sec9rssicon"></i>
+                <i class="icon-facebook-sign icon-3x sec9fbicon"></i>
+                <i class="icon-twitter-sign icon-3x sec9twittericon"></i>
+                <i class="icon-flickr icon-3x sec9flickricon"></i>
+                <i class="icon-google-plus-sign icon-3x sec9googleicon"></i>
+              </div> <!-- end of h5 div -->
+          </div> <!-- end of div -->
+        </div> <!-- end of col 3  -->
+      </div> <!-- end row-->
 
-				<hr class="sec9copyrighthr1">
-				<p>Copyright 2014 Gift Shop. All Rights Reserved<a class="pull-right">Designed by FULSTACK</a></p>
+        <hr class="sec9copyrighthr1">
+        <p>Copyright 2014 Gift Shop. All Rights Reserved<a class="pull-right">Original Design by Amysxain (Recreated by FulStack)</a></p>
 
-				<hr class="sec9copyrighthr2">
-		</div> <!-- end container -->
+        <hr class="sec9copyrighthr2">
+    </div> <!-- end container -->
 
 
-	</footer>
+  </footer>
 
 </body>
 </html>
